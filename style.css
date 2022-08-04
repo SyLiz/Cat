@@ -1,6 +1,7 @@
 body {
     margin: 0px ;
-    color: #EC1843;
+    color: rgb(255, 255, 255);
+    background-color: #EC1843;
     font-family: 'Montserrat', sans-serif;
 }
 
