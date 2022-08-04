@@ -12,9 +12,11 @@
 </head>
 <body>
     <script type='text/javascript'>
-      Print.postMessage('Hello World being called from Javascript code');
+        function myFunction() {
+            Print.postMessage('Hello World being called from Javascript code');
+        }
   </script>
-      <div class="cat-container">
+      <div class="cat-container" onclick="myFunction()">
           <img src="images/cat.png" alt="cat" class="img-cat">
           <div class="content"> 
               <div class="test"></div>
