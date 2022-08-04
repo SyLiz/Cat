@@ -1,0 +1,89 @@
+body {
+    margin: 0px ;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.text {
+    line-height: 1.5;
+    font-weight: 500;
+}
+.title {
+    line-height: 1.5;
+}
+
+.cat-container {
+    background-color: #EC1843;
+}
+
+.button {
+    cursor: pointer;
+    margin-top: 32px;
+    transition-duration: 0.2s;
+    padding: 15px 32px;
+    border-color: white;
+    border-radius: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #EC1843;
+    border-style: solid;
+}
+
+.button:hover {
+    border-color: #ffff;
+    color: #ffff;
+    background-color: #EC1843;
+}
+
+.img-cat {
+    margin-bottom: -4px;
+}
+
+.test {
+    float: left;
+    margin-left: 45%;
+    width: 0px;
+    height: 480px;
+    visibility: hidden;
+    background-color: black;
+}
+
+.content {
+    position: absolute;
+    left: 5%;
+    right: 5%;
+    padding-top: 32px;
+    padding-left: 8%;
+    padding-right: 8%;
+    height: 480px;
+    top: 0px;
+}
+
+@media screen and (max-width: 1200px) {
+
+    .img-cat {
+        position: relative;
+        margin-bottom: -4px;
+        right: 280px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .test {
+        display: none !important;
+    }
+    .img-cat {
+        position: relative;
+        margin-bottom: -4px;
+        right: 340px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .test {
+        display: none;
+    }
+    .img-cat {
+        right: 1000px;
+    }
+}
